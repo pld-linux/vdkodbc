@@ -29,7 +29,8 @@ database applications using VDK and unixODBC libraries.
 
 %description -l pl
 VDKODBC jest zbiorem obiektów dostêpu do danych przeznaczonym do
-budowania aplikacji bazodanowych w oparciu o biblioteki vdk i unixODBC.
+budowania aplikacji bazodanowych w oparciu o biblioteki vdk i
+unixODBC.
 
 %package devel
 Summary:	Header files for VDKODBC library
