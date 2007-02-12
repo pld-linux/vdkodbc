@@ -3,7 +3,7 @@
 %bcond_without	static_libs # don't build static libraries
 #
 Summary:	vdkodbc - data-access objects for developing database applications using VDK and unixODBC
-Summary(pl):	vdkodbc - obiekty dostêpu do danych do tworzenia aplikacji bazodanowych przy u¿yciu VDK i unixODBC
+Summary(pl.UTF-8):   vdkodbc - obiekty dostÄ™pu do danych do tworzenia aplikacji bazodanowych przy uÅ¼yciu VDK i unixODBC
 Name:		vdkodbc
 Version:	2.4.2
 Release:	0.1
@@ -27,33 +27,33 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 VDKODBC is a set of data-access and data-aware objects made to build
 database applications using VDK and unixODBC libraries.
 
-%description -l pl
-VDKODBC jest zbiorem obiektów dostêpu do danych przeznaczonym do
+%description -l pl.UTF-8
+VDKODBC jest zbiorem obiektÃ³w dostÄ™pu do danych przeznaczonym do
 budowania aplikacji bazodanowych w oparciu o biblioteki vdk i
 unixODBC.
 
 %package devel
 Summary:	Header files for VDKODBC library
-Summary(pl):	Pliki nag³ówkowe biblioteki VDKODBC
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe biblioteki VDKODBC
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for VDKODBC library.
 
-%description devel -l pl
-Pliki nag³ówkowe biblioteki VDKODBC.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe biblioteki VDKODBC.
 
 %package static
 Summary:	Static VDKODBC library
-Summary(pl):	Statyczna biblioteka VDKODBC
+Summary(pl.UTF-8):   Statyczna biblioteka VDKODBC
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static VDKODBC library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka VDKODBC.
 
 %prep
